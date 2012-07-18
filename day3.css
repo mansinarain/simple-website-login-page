@@ -1,0 +1,105 @@
+#info
+{
+	background-color: (0,0,0,0.5);
+	color: white;
+	position:fixed;
+	bottom:50px;
+	width: 100%;
+	height:20%;
+}
+
+body
+{
+	background: url(newyork.jpeg);
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.trans{
+    opacity: 0.5;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position:fixed;
+    bottom:50px;
+    
+}
+
+.trans2{
+    opacity: 1;
+    position: fixed;
+    bottom:50px;	
+}
+
+.trans2 p{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-indent:200px;
+    font-size:x-large;
+}
+
+.circle{
+    opacity: 0.7;
+    height: 100px;
+    width: 100px;
+    top:350px;
+    right:50px;
+    border-radius:50px;
+    background-color: white;
+    position:fixed;
+    bottom:50px;
+    
+}
+
+.circle p
+{
+	position:relative;
+	top:25px;
+	left:13px;
+	font-weight:bold;
+}
+
+.container{
+	display:none;
+    opacity: 0.7;
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    position:fixed;
+	top:50px;
+	left:100px;
+    
+}
+
+.content{
+		display:none;
+    opacity: 1;
+    position: fixed;
+    top:100px;	
+}
+
+.content p{
+	display:none;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    text-indent:100px;
+    font-size:large;
+}
+
+#pass,#login
+{
+	margin:250px;
+}
+
+#login #username
+{
+margin:22px;
+}
+
+#press
+{
+margin:400px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>To learn making beautiful websites</title>
+<link rel="stylesheet" href="day3.css" type="text/stylesheet" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+</head>
+<body>
+<div class="circle">
+<p> Click Here</p>
+</div>
+<div class="trans">
+</div>
+<div class="trans2">
+<p> This is where you can find out all those places in NYC you never knew about ! </p>
+</div>
+<div class="container">
+</div>
+<div class="content">
+<p> Welcome !! Lets get you started.. Please enter the following details to continue :</p>
+<span id="login">Login :   <input type="text" id="username" name="username" size="40" /> </span>
+<br />
+<span id="pass">Password: <input type="password" name="pwd" id="pwd" size="40" /> </span>
+<br />
+<br />
+<br />
+<span id="press"><input type="submit" name="submit" id="submit" /> </span>
+</div>
+</body>
+<script>
+$('.circle').click(function(){
+	$('.trans').hide(4000);
+});
+$('.circle').click(function(){
+	$('.trans2').hide(4000);
+});
+$('.circle').click(function(){
+	$('.circle').hide();
+});
+
+$('.circle').click(function(){
+	$('.container').show(2000);
+	$('.content').show(2000);
+		$('.content p').show(2000);
+});
+
+</script>
+</html>
